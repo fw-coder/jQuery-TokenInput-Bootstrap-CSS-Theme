@@ -1,5 +1,5 @@
-/* Example tokeninput style #2: Facebook style */
-ul.token-input-list-facebook {
+/* Example tokeninput style: Booststrap style */
+ul.token-input-list-bootstrap {
     overflow: hidden; 
     height: auto !important; 
     height: 1%;
@@ -20,7 +20,7 @@ ul.token-input-list-facebook {
 		border-radius: 3px;
 }
 
-ul.token-input-list-facebook.token-input-focused-facebook {
+ul.token-input-list-bootstrap.token-input-focused-bootstrap {
 	border-color: rgba(82, 168, 236, 0.8);
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
@@ -29,7 +29,7 @@ ul.token-input-list-facebook.token-input-focused-facebook {
 	outline: thin dotted 9;
 }
 
-ul.token-input-list-facebook li input {
+ul.token-input-list-bootstrap li input {
     border: 0;
     width: 100px;
     padding: 3px 8px;
@@ -38,7 +38,7 @@ ul.token-input-list-facebook li input {
     -webkit-appearance: caret;
 }
 
-li.token-input-token-facebook {
+li.token-input-token-bootstrap {
     overflow: hidden; 
     height: auto !important; 
     height: 15px;
@@ -56,33 +56,33 @@ li.token-input-token-facebook {
     white-space: nowrap;
 }
 
-li.token-input-token-facebook p {
+li.token-input-token-bootstrap p {
     display: inline;
     padding: 0;
     margin: 0;
 }
 
-li.token-input-token-facebook span {
+li.token-input-token-bootstrap span {
     color: #a6b3cf;
     margin-left: 5px;
     font-weight: bold;
     cursor: pointer;
 }
 
-li.token-input-selected-token-facebook {
+li.token-input-selected-token-bootstrap {
     background-color: #5670a6;
     border: 1px solid #3b5998;
     color: #fff;
 }
 
-li.token-input-input-token-facebook {
+li.token-input-input-token-bootstrap {
     float: left;
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-div.token-input-dropdown-facebook {
+div.token-input-dropdown-bootstrap {
     position: absolute;
     width: 400px;
     background-color: #F5F5F5;
@@ -96,39 +96,39 @@ div.token-input-dropdown-facebook {
     z-index: 1;
 }
 
-div.token-input-dropdown-facebook p {
+div.token-input-dropdown-bootstrap p {
     margin: 0;
     padding: 5px;
     font-weight: bold;
     color: #555;
 }
 
-div.token-input-dropdown-facebook ul {
+div.token-input-dropdown-bootstrap ul {
     margin: 0;
     padding: 0;
 }
 
-div.token-input-dropdown-facebook ul li {
+div.token-input-dropdown-bootstrap ul li {
     background-color: #f5f5f5;
     padding: 3px;
     margin: 0;
     list-style-type: none;
 }
 
-div.token-input-dropdown-facebook ul li.token-input-dropdown-item-facebook {
+div.token-input-dropdown-bootstrap ul li.token-input-dropdown-item-bootstrap {
     background-color: #f5f5f5;
 }
 
-div.token-input-dropdown-facebook ul li.token-input-dropdown-item2-facebook {
+div.token-input-dropdown-bootstrap ul li.token-input-dropdown-item2-bootstrap {
     background-color: #f5f5f5;
 }
 
-div.token-input-dropdown-facebook ul li em {
+div.token-input-dropdown-bootstrap ul li em {
     font-weight: bold;
     font-style: normal;
 }
 
-div.token-input-dropdown-facebook ul li.token-input-selected-dropdown-item-facebook {
+div.token-input-dropdown-bootstrap ul li.token-input-selected-dropdown-item-bootstrap {
     background-color: #08C;
     color: #f5f5f5;
 }
